@@ -211,10 +211,6 @@
     font-weight: bold;
     padding:5px;
     border:1px  #DAAD86;
-    
-}
-         
-#TSE button {
     background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
     margin: 5px;
     padding: 15px 45px;
@@ -224,7 +220,8 @@
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     display: block;
-  }
+    
+}
 
   #TSE button:hover {
     cursor: pointer;
@@ -239,10 +236,6 @@
     font-weight: bold;
     padding:5px;
     border:1px  #DAAD86;
-    
-}
-         
-#TECH button {
     background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
     margin: 5px;
     padding: 15px 45px;
@@ -252,11 +245,20 @@
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     display: block;
-  }
+}
 
   #TECH button:hover {
     cursor: pointer;
     background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
+  }
+
+  #TECH a{
+    text-decoration: none;
+    color:#fff;
+  }
+  #TSE a{
+    text-decoration: none;
+    color:#fff;
   }
