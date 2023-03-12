@@ -94,7 +94,7 @@
     text-align:center;
     margin-bottom:50px;
     font-size: 50px;
-    color:black;
+    color:#FBEEC1;
     font-weight: bold;
 }
 #head{
@@ -132,7 +132,7 @@
     text-align: center;
     justify-content: center;
     font-size:50px;
-    color:black;
+    color:#FBEEC1;
     font-weight: bold;
 }
 #skilltab{
@@ -168,7 +168,7 @@
 }
 #first{
     font-size:50px;
-    color:black;
+    color:#FBEEC1;
     font-weight: bold;
 }
 #second{
@@ -191,3 +191,85 @@
 .third a{
     text-decoration: none;
 }
+#projects{
+    background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+}
+#pr{
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom:40px;
+    color:#FBEEC1;
+}
+#tabs{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+#projects img{
+    width:100%;
+    height:180px;
+    border-radius:5px;
+}
+.description{
+    text-align:left;
+}
+.description p{
+    padding:10px;
+}
+
+#TSE button{
+    font-size: large;
+    font-weight: bold;
+    padding:5px;
+    border:1px  #DAAD86;
+    
+}
+         
+#TSE button {
+    background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+    margin: 5px;
+    padding: 15px 45px;
+    text-align: center;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  #TSE button:hover {
+    cursor: pointer;
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+#TECH button{
+    font-size: large;
+    font-weight: bold;
+    padding:5px;
+    border:1px  #DAAD86;
+    
+}
+         
+#TECH button {
+    background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+    margin: 5px;
+    padding: 15px 45px;
+    text-align: center;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  #TECH button:hover {
+    cursor: pointer;
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
