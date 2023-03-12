@@ -13,53 +13,40 @@
     grid-template-columns: repeat(2,1fr) ;
     background-image: linear-gradient(to right, #8360c3, #2ebf91);
     padding:40px;
+    overflow:hidden;
+    position:fixed;
+    top:0;
+}
+#navbar a{
+    display:block;
 }
 #nav{
     display:flex;
     text-align:center;
 
 }
-#nav div{
+#nav a{
     margin-right:40px;
 }
-#nav div:hover{
+#nav a:hover{
     color:white;
     cursor:pointer;
 }
 #navbar a{
     text-decoration: none;
 }
-#button{
-    font-size: large;
-    font-weight: bold;
-    padding:5px;
-    border:1px  #DAAD86;
-    
+#res{
+    background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
+    text-align:center;
+    justify-content:center;
+    border-radius:5px;
+    padding:15px;
 }
-         
-#button {
-    background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
-    margin: 5px;
-    padding: 15px 45px;
-    text-align: center;
-    background-size: 200% auto;
-    color: white;            
-    box-shadow: 0 0 20px #eee;
-    border-radius: 10px;
-    display: block;
-  }
-
-  #button:hover {
-    cursor: pointer;
-    background-position: right center; /* change the direction of the change here */
-    color: #fff;
-    text-decoration: none;
-  }
- 
 #str{
     color:black;
 }
 #home{
+    margin-top:120px;
     width:auto;
    position: relative;
    text-align:center;
