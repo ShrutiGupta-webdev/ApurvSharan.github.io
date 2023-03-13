@@ -116,14 +116,14 @@
     background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
 
 }
-#skillhead{
+.skillhead{
     text-align: center;
     justify-content: center;
     font-size:50px;
     color:#FBEEC1;
     font-weight: bold;
 }
-#skilltab{
+.skilltab{
     margin-top:20px;
     display:flex;
     justify-content: space-around;
@@ -132,7 +132,7 @@
 }
 .image{
     display:grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr);
     gap:60px;
 }
 .image img{
@@ -141,11 +141,16 @@
     width:120px;
 }
 .image p{
-    margin-top:3px;
+    margin-top:20px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
 }
 .image div{
     text-align: center;
     justify-content: center;
+}#tech{
+    margin:50px;
 }
 #contact{
     padding:20px;
