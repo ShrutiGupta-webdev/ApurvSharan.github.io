@@ -16,6 +16,7 @@
     overflow:hidden;
     position:fixed;
     top:0;
+    width:100%;
 }
 #navbar a{
     display:block;
@@ -111,7 +112,7 @@
     border-radius:50%;
 }
 #skills{
-    padding:20px;
+    padding:70px;
     background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
 
 }
