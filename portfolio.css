@@ -6,48 +6,41 @@
     font-family: sans-serif;
 }
 #navbar{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
-    font-weight: bold;
-    display:grid;
-    grid-template-columns: repeat(2,1fr) ;
-    background-image: linear-gradient(to right, #8360c3, #2ebf91);
-    padding:40px;
-    overflow:hidden;
-    position:fixed;
-    top:0;
-    width:100%;
-}
-#navbar a{
-    display:block;
-}
-#nav{
     display:flex;
-    text-align:center;
-
-}
-#nav a{
-    margin-right:40px;
-}
-#nav a:hover{
-    color:white;
-    cursor:pointer;
-}
-#navbar a{
-    text-decoration: none;
+    text-align: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+    height:70px;
 }
 #res{
-    background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
-    text-align:center;
-    justify-content:center;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
     border-radius:5px;
-    padding:15px;
+    padding:10px;
+    margin-right: 5px;
 }
-#str{
-    color:black;
+.name{
+    color:#FBEEC1;
+    padding:10px;
+    font-size:40px;
+    margin-left:40px;
+    font-weight: bold;
 }
+.links a{
+    text-decoration: none;
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.links a:hover{
+    color:#FBEEC1;
+}
+
+
 #home{
-    margin-top:120px;
     width:auto;
    position: relative;
    text-align:center;
@@ -70,6 +63,21 @@
     position:absolute;
     top:150px;
     left:40px;
+}
+#btn{
+    position:absolute;
+    top:230px;
+    left:50px;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    padding:10px;
+    border-radius:10px;
+    font-weight: bold;
+    font-size:20px;
+    color:#fff;
+
+}
+#btn a{
+    text-decoration: none;
 }
 #about{
     margin-top:-5px;
