@@ -101,13 +101,14 @@
 }
 #para{
     width:90%;
-    text-align:center;
+    text-align:left;
     justify-content: center;
     padding-top:50px;
 }
 #para p{
-    font-size:25px;
+    font-size:20px;
     color:black;
+    line-height: 35px;
 }
 #head img{
     height:300px;
