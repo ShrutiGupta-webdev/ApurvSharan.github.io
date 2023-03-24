@@ -1,71 +1,66 @@
 *{
     padding:0px;
-    margin:0px;
+    margin-top:0px;
     color:black;
     width:auto;
     font-family: sans-serif;
 }
 #navbar{
     display:flex;
+    justify-content: space-evenly;
     text-align: center;
-    justify-content: space-between;
     height:70px;
+    overflow:hidden;
+    position:fixed;
+    top:0;
+    width:100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #d0eaf0;
 }
-#res{
-    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
-    border-radius:5px;
-    padding:10px;
-    margin-right: 5px;
-}
-.name{
-    padding:10px;
-    font-size:40px;
-    margin-left:40px;
-    font-weight: bold;
-    color:rgb(156, 39, 156)
-}
-.links a{
+#navbar a{
     text-decoration: none;
-    display: inline-flex;
+    display:flex;
     text-align: center;
     justify-content: space-evenly;
     padding: 20px;
     font-size: 20px;
     font-weight: bold;
+    color:rgb(156, 39, 156)
 }
-.links a:hover{
-    color:rgb(214, 110, 214);
+#navbar a:hover{
+    color:black;
 }
-
-
 #home{
+    margin-top:120px;
     width:auto;
-   position: relative;
    text-align:center;
    color:black;
+   display:flex;
+   justify-content: space-evenly;
 }
-#home div{
-    border:none;
-    font-size:45px;
+#dtl{
+    text-align:left;
+    font-size:40px;
+    margin-right:20px;
+    padding:20px;
 }
-#home img{
-    height:500px;
-    width:100%;
+#dtl div{
+    margin-top:10px;
 }
-#name{
-    position:absolute;
-    top:80px;
-    left:40px;
+#dml {
+    margin-left:50px;
+    margin-bottom:30px;
+    border-radius: 20px;
+    height:auto;
+    text-align:center;
+    justify-content: center;
 }
-#desg{
-    position:absolute;
-    top:150px;
-    left:40px;
+#dml img{
+    height:300px;
+    border-radius:50%;
 }
 #btn{
-    position:absolute;
-    top:230px;
-    left:50px;
+    margin-top:20px;
     background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
     padding:10px;
     border-radius:10px;
@@ -81,7 +76,6 @@
     color:#FBEEC1;
 }
 #about{
-    margin-top:-5px;
     padding:30px;
     height:auto;
 }
@@ -91,6 +85,7 @@
     margin-bottom:50px;
     font-size: 50px;
     font-weight: bold;
+    color:rgb(156, 39, 156);
 }
 #head{
     display:grid;
@@ -112,14 +107,14 @@
 }
 #para p{
     font-size:25px;
-    color:rgb(150, 34, 150);
+    color:black;
 }
 #head img{
     height:300px;
     border-radius:50%;
 }
 #skills{
-    padding:70px;
+    padding:40px;
 
 }
 .skillhead{
@@ -127,6 +122,7 @@
     justify-content: center;
     font-size:50px;
     font-weight: bold;
+    color:rgb(156, 39, 156);
 }
 .skilltab{
     margin-top:20px;
@@ -157,13 +153,13 @@
 #tech{
     margin:50px;
 }
-
 #pr{
     text-align: center;
     justify-content: center;
     font-size: 50px;
     font-weight: bold;
     margin-bottom:40px;
+    color:rgb(156, 39, 156);
 }
 #tabs{
     display: flex;
@@ -251,6 +247,7 @@
   #contact p:nth-child(1){
     font-size:40px;
     margin-bottom:20px;
+    color:rgb(156, 39, 156)
   }
 #contact div{
     text-align: center;
