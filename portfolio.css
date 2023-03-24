@@ -9,21 +9,20 @@
     display:flex;
     text-align: center;
     justify-content: space-between;
-    background-image: linear-gradient(to right, #8360c3, #2ebf91);
     height:70px;
 }
 #res{
-    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
     border-radius:5px;
     padding:10px;
     margin-right: 5px;
 }
 .name{
-    color:#FBEEC1;
     padding:10px;
     font-size:40px;
     margin-left:40px;
     font-weight: bold;
+    color:rgb(156, 39, 156)
 }
 .links a{
     text-decoration: none;
@@ -33,10 +32,9 @@
     padding: 20px;
     font-size: 20px;
     font-weight: bold;
-    color: #fff;
 }
 .links a:hover{
-    color:#FBEEC1;
+    color:rgb(214, 110, 214);
 }
 
 
@@ -68,29 +66,30 @@
     position:absolute;
     top:230px;
     left:50px;
-    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
     padding:10px;
     border-radius:10px;
     font-weight: bold;
     font-size:20px;
     color:#fff;
-
+    border:none;
 }
 #btn a{
     text-decoration: none;
+}
+#btn a:hover{
+    color:#FBEEC1;
 }
 #about{
     margin-top:-5px;
     padding:30px;
     height:auto;
-    background-image: linear-gradient(to right, #8360c3, #2ebf91);
 }
 #heading{
     justify-content: center;
     text-align:center;
     margin-bottom:50px;
     font-size: 50px;
-    color:#FBEEC1;
     font-weight: bold;
 }
 #head{
@@ -113,7 +112,7 @@
 }
 #para p{
     font-size:25px;
-    color:white;
+    color:rgb(150, 34, 150);
 }
 #head img{
     height:300px;
@@ -121,14 +120,12 @@
 }
 #skills{
     padding:70px;
-    background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
 
 }
 .skillhead{
     text-align: center;
     justify-content: center;
     font-size:50px;
-    color:#FBEEC1;
     font-weight: bold;
 }
 .skilltab{
@@ -150,58 +147,23 @@
 }
 .image p{
     margin-top:20px;
-    color:white;
     font-weight: bold;
     font-size:20px;
 }
 .image div{
     text-align: center;
     justify-content: center;
-}#tech{
+}
+#tech{
     margin:50px;
 }
-#contact{
-    padding:20px;
-    background-image: linear-gradient(to right, #8360c3, #2ebf91);
-    text-align: center;
-    justify-content: center;
-   
-}
-#first{
-    font-size:50px;
-    color:#FBEEC1;
-    font-weight: bold;
-}
-#second{
-    padding:20px;
-    display:flex;
-    justify-content: center;
-}
-.third{
-    display:flex;
-    justify-content: center;
-    padding:10px;
-}
-.third img{
-    width:30px;
-    height:30px;
-    border-radius: 50%;
-    margin-right:10px;
 
-}
-.third a{
-    text-decoration: none;
-}
-#projects{
-    background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
-}
 #pr{
     text-align: center;
     justify-content: center;
     font-size: 50px;
     font-weight: bold;
     margin-bottom:40px;
-    color:#FBEEC1;
 }
 #tabs{
     display: flex;
@@ -276,3 +238,36 @@
     text-decoration: none;
     color:#fff;
   }
+  #contact{
+    text-align:center;
+    padding:20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top:20px;
+  }
+  .head{
+    font-size:50px;
+    font-weight: bold;
+  }
+  #contact p:nth-child(1){
+    font-size:40px;
+    margin-bottom:20px;
+  }
+#contact div{
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    padding:20px;
+    margin-left:15px;
+    display:inline-block;
+}
+ #contact div img{
+    margin-right:10px;
+ } 
+ #footer{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+ }
+ #footer div{
+    padding:20px;
+ }
