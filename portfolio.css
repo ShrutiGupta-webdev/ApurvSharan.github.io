@@ -33,36 +33,16 @@
 #home{
     margin-top:120px;
     width:auto;
-   text-align:center;
+   text-align:left;
+   justify-content: left;
    color:black;
-   display:flex;
-   justify-content: space-evenly;
-}
-#dtl{
-    text-align:left;
-    font-size:40px;
-    margin-right:20px;
-    padding:20px;
-}
-#dtl div{
-    margin-top:10px;
-}
-#dml {
-    margin-left:50px;
-    margin-bottom:30px;
-    border-radius: 20px;
-    height:auto;
-    text-align:center;
-    justify-content: center;
-}
-#dml img{
-    height:300px;
-    border-radius:50%;
+   font-size:50px;
+   padding:50px;
 }
 #btn{
     margin-top:20px;
     background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
-    padding:10px;
+    padding:20px;
     border-radius:10px;
     font-weight: bold;
     font-size:20px;
