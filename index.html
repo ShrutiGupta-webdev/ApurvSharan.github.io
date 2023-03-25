@@ -1,37 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>PortFolio</title>
 	<link rel="stylesheet" href="portfolio.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<!-- fontawesome link  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+		integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"
+		integrity="sha512-2bMhOkE/ACz21dJT8zBOMgMecNxx0d37NND803ExktKiKdSzdwn+L7i9fdccw/3V06gM/DBWKbYmQvKMdAA9Nw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
+
 <body>
 	<!--Navbar Section-->
 	<div id="navbar">
 		<img src="./images/Logo.png" alt="Logo">
-			<a href="#home">Home</a>
-			<a href="#about">About</a>
-			<a href="#skills">Skills</a>
-			<a href="#projects">Projects</a>
-			<a href="#contact">Contact</a>
-			<a href="download\Apurv_Sharan_Resume_.pdf" download="fw21_0981_Apurv_Sharan_Resume" window.open('https://drive.google.com/file/d/1V5ocIKNMPt4Fn_BlCwp31oe1saeKwEkC/view?usp=sharing') id="res">Resume</a>
+		<a href="#home">Home</a>
+		<a href="#about">About</a>
+		<a href="#skills">Skills</a>
+		<a href="#projects">Projects</a>
+		<a href="#contact">Contact</a>
+		<a href="download\Apurv_Sharan_Resume_.pdf" download="fw21_0981_Apurv_Sharan_Resume"
+			window.open('https://drive.google.com/file/d/1V5ocIKNMPt4Fn_BlCwp31oe1saeKwEkC/view?usp=sharing')
+			id="res">Resume</a>
+	</div>
+	<!-- Responsive hamburger section -->
+	<div id="hamburger">
+		<button onclick="display()" class="hambtn1"><i class="fa-solid fa-bars"></i></button>
+		<h1>Apurv Sharan</h1>
+		<div class="list">
+			<button onclick="Remove()" class="hambtn2"><i class="fa-regular fa-rectangle-xmark"></i></button>
+			<ul>
+			<li> <a href="#home">Home</a></li>	
+			<li><a href="#about">About</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="download\Apurv_Sharan_Resume_.pdf" download="fw21_0981_Apurv_Sharan_Resume"
+				window.open('https://drive.google.com/file/d/1V5ocIKNMPt4Fn_BlCwp31oe1saeKwEkC/view?usp=sharing')
+				id="res">Resume</a></li>
+			</ul>
+			
+
+		</div>
 	</div>
 	<!--Home section-->
 	<div id="home">
-		
+
 		<div class="hero">
 			<div>Hello,</div>
 			<div>I am <strong>Apurv Sharan</strong></div>
 			<div> <strong>Technical Support Engineer</strong></div>
-			<button id="btn1"><a href="https://drive.google.com/file/d/1V5ocIKNMPt4Fn_BlCwp31oe1saeKwEkC/view?usp=sharing" target="_blank">Resume</a></button>
-		
+			<button id="btn1"><a
+					href="https://drive.google.com/file/d/1V5ocIKNMPt4Fn_BlCwp31oe1saeKwEkC/view?usp=sharing"
+					target="_blank">Resume</a></button>
+
 		</div>
 		<div>
 			<img src="./images/hero1.webp" alt="">
 		</div>
-			
+
 	</div>
 	<!--About Section-->
 	<div id="about">
@@ -43,24 +77,26 @@
 			<div id="para">
 				<p>
 					Analytical and detail-oriented aspiring tech support engineer. Highly adept in working on
-					multiple operating systems, monitoring products and services with developing detailed technical guides. Proficient in rapport-building and understanding the outstanding customer service of an organization.
+					multiple operating systems, monitoring products and services with developing detailed technical
+					guides. Proficient in rapport-building and understanding the outstanding customer service of an
+					organization.
 				</p>
 			</div>
 		</div>
-	
+
 	</div>
 	<!--Tech skills-->
 	<div id="skills">
 		<div id="one">
 			<div class="skillhead">
-				* Technical Skills 
+				* Technical Skills
 			</div>
 			<div class="skilltab">
 				<div id="tech">
 					<div class="image">
 						<div>
 							<img src="images\linux-logo-logo-brands-for-0.png" alt="Linux">
-							
+
 						</div>
 						<div>
 							<img src="images\mysql.png" alt="SQL">
@@ -69,7 +105,9 @@
 							<img src="images\shell Scripting.png" alt="Shell scripting">
 						</div>
 						<div>
-							<img style="padding-top:40px"src="images\22-227064_brian-durkin-operating-system-logo-icons-removebg-preview.png" alt="OS">
+							<img style="padding-top:40px"
+								src="images\22-227064_brian-durkin-operating-system-logo-icons-removebg-preview.png"
+								alt="OS">
 						</div>
 						<div>
 							<img src="images\html.png" alt="HTML">
@@ -81,17 +119,21 @@
 							<img src="images\javascript.png" alt="JS">
 						</div>
 						<div>
-							<img style="padding-top:40px;" src="https://camo.githubusercontent.com/5327c3e6d8349607bc84c60102bee78e7ee32d2b1861f28445560df9eeb79492/68747470733a2f2f68616b696d2d7374617469632e73332e616d617a6f6e6177732e636f6d2f72657665616c2d6a732f6c6f676f2f76312f72657665616c2d626c61636b2d746578742d737469636b65722e706e67" alt="RevealJS">
-							
+							<img style="padding-top:40px;"
+								src="https://camo.githubusercontent.com/5327c3e6d8349607bc84c60102bee78e7ee32d2b1861f28445560df9eeb79492/68747470733a2f2f68616b696d2d7374617469632e73332e616d617a6f6e6177732e636f6d2f72657665616c2d6a732f6c6f676f2f76312f72657665616c2d626c61636b2d746578742d737469636b65722e706e67"
+								alt="RevealJS">
+
 						</div>
 						<div>
-							<img style="height:170px;width:160px"src="images\notion1411-removebg-preview.png" alt="Notion">
+							<img style="height:170px;width:160px" src="images\notion1411-removebg-preview.png"
+								alt="Notion">
 						</div>
 						<div>
 							<img src="images\github.png" alt="github">
 						</div>
 						<div>
-							<img style="height:90px;width: 170px;"src="images\visualstudio_code-ar21-removebg-preview.png" alt="vscode">
+							<img style="height:90px;width: 170px;"
+								src="images\visualstudio_code-ar21-removebg-preview.png" alt="vscode">
 						</div>
 					</div>
 				</div>
@@ -99,30 +141,30 @@
 		</div>
 		<div class="two">
 			<div class="skillhead">
-			Customer Service Skills
-		</div>
-		<div class="skilltab">
-			<div id="tech">
-				<div class="image">
-					<div>
-						<img src="images\icons8-technical-64.png" alt="Technical Assistance">
-						<p>Technical Assistance</p>
-					</div>
-					<div>
-						<img src="images\icons8-solving-64.png" alt="Resolving Issues">
-						<p>Resolving Issues</p>
-					</div>
-					<div>
-						<img src="images\icons8-critical-thinking-64.png" alt="Critical thinking">
-						<p>Crtitcal Thinking</p>
-					</div>
-					<div>
-						<img src="images\icons8-responsive-64.png" alt="Responsive">
-						<p>Responsive</p>
+				* Customer Service Skills
+			</div>
+			<div class="skilltab">
+				<div id="tech">
+					<div class="image">
+						<div>
+							<img src="images\icons8-technical-64.png" alt="Technical Assistance">
+							<p>Technical Assistance</p>
+						</div>
+						<div>
+							<img src="images\icons8-solving-64.png" alt="Resolving Issues">
+							<p>Resolving Issues</p>
+						</div>
+						<div>
+							<img src="images\icons8-critical-thinking-64.png" alt="Critical thinking">
+							<p>Crtitcal Thinking</p>
+						</div>
+						<div>
+							<img src="images\icons8-responsive-64.png" alt="Responsive">
+							<p>Responsive</p>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 		</div>
 
 		<div id="one">
@@ -152,7 +194,7 @@
 				</div>
 			</div>
 		</div>
-			
+
 	</div>
 	<!--Project Section-->
 	<div id="projects">
@@ -163,9 +205,9 @@
 					<img src="images\2023-03-12 (1).png" alt="TSE">
 				</div>
 				<div class="description">
-					<p style="font-size:30px;"><strong >FIGMA - </strong></p>
+					<p style="font-size:30px;"><strong>FIGMA - </strong></p>
 					<p><i>Figma is a collaborative web application for
-						interface design.</i></p>
+							interface design.</i></p>
 					<p><strong>Tech Stack</strong> : HTML | CSS | JS</p>
 					<p><strong>Features</strong> : Workspace of Figma</p>
 					<p><strong>Area of Responsibility</strong> : PowerPoint Presentation
@@ -173,7 +215,8 @@
 					<p><i>Group project completed within a span of 2 days</i></p>
 				</div>
 				<div class="projbtn">
-					<button><a href="https://fastidious-tartufo-b4d25f.netlify.app/" target="_blank">Deployed</a></button>
+					<button><a href="https://fastidious-tartufo-b4d25f.netlify.app/"
+							target="_blank">Deployed</a></button>
 					<button><a href="https://github.com/ApurvSharan/Figma" target="_blank">GitHub</a></button>
 				</div>
 			</div>
@@ -184,10 +227,10 @@
 				<div class="description">
 					<p style="font-size:30px;"><strong>Nordstrom Rack - </strong></p>
 					<p><i>An e-commerce website, especially cosmetic-
-						related products</i></p>
-					<p><strong >Tech Stack</strong> : HTML | CSS | JS</p>
-					<p><strong >Features</strong> : SignIn/SignUp
-					<p><strong >Area of Responsibility</strong> : SignIn/SignUp page , Navbar</p>
+							related products</i></p>
+					<p><strong>Tech Stack</strong> : HTML | CSS | JS</p>
+					<p><strong>Features</strong> : SignIn/SignUp
+					<p><strong>Area of Responsibility</strong> : SignIn/SignUp page , Navbar</p>
 					<p><i>An individual project done within a span of 5 days</i></p>
 				</div>
 				<div class="projbtn">
@@ -198,9 +241,9 @@
 		</div>
 
 	</div>
-	
+
 	<!--Contact section-->
-	
+
 	<div id="contact">
 		<p>Contact</p>
 		<div>
@@ -217,10 +260,14 @@
 		</div>
 		<div>
 			<a href="https://github.com/ApurvSharan" target="_blank"><img src="images\icons8-github-50.png" alt="">
-				<p>ApurvSharan</p></a>
+				<p>ApurvSharan</p>
+			</a>
 		</div>
 		<div>
-			<a href="https://www.linkedin.com/in/apurv-sharan-950b45242/" target="_blank"><img src="images\icons8-linkedin-2-48.png"alt=""> <p>LinkedIn</p></a>
+			<a href="https://www.linkedin.com/in/apurv-sharan-950b45242/" target="_blank"><img
+					src="images\icons8-linkedin-2-48.png" alt="">
+				<p>LinkedIn</p>
+			</a>
 		</div>
 
 	</div>
@@ -228,6 +275,6 @@
 		<p style="font-size: 25px; padding: 10px;">&copy; CopyRights By Apurv Sharan</p>
 	</div>
 </body>
-</html>
-
 <script src="portfolio.js"></script>
+
+</html>

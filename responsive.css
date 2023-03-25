@@ -1,0 +1,99 @@
+
+/* mobile screen */
+
+@media (min-width:300px) and (max-width:700px) {
+
+#hamburger{
+    display: block;
+    background-color: #365bc2;
+   
+   
+}
+#hamburger h1{
+    width: fit-content;
+    color: white;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+#navbar{
+    display: none;
+
+}
+#home{
+    flex-direction: column;
+    
+}
+#home img{
+    width: 300px;
+    height: 400px;
+    margin-left: 0;
+}
+.hero{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#head{
+    flex-direction: column;
+}
+#head div{
+    width: 100%;
+}
+
+#para p{
+    text-align: center;
+}
+#skills {
+    padding: 10px;
+}
+.skillhead{
+    font-size: 45px;
+}
+.skilltab{
+    flex-direction: column;
+}
+.image {
+    justify-content: center;
+    grid-template-columns: repeat(2, 140px);
+    gap: 20px;
+}
+.image img{
+width: 100%;
+}
+.two {
+    margin: 20px 0;
+}
+
+#tabs {
+
+    flex-direction: column;
+}
+#TSE button, #TECH button{
+    padding: 10px 15px;
+}
+#TSE{
+    margin-bottom: 20px;
+}
+
+
+}
+
+
+/* Tablet screen  */
+@media (min-width:701px) and (max-width:1100px) {
+    .image {
+        justify-content: center;
+        grid-template-columns: repeat(3, 140px);
+        gap: 20px;
+    }
+    #tabs {
+
+        flex-direction: column;
+    }
+    #TSE{
+        margin-bottom: 20px;
+    }
+    #TECH img, #TSE img{
+        height: 300px;
+    }
+
+}
